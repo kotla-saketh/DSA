@@ -1,0 +1,31 @@
+1. Starting a Project
+git init — Initialize a new local Git repository.
+
+git remote add origin <url> — Link your local folder to your GitHub repository.
+
+2. The Daily Workflow (Save & Upload)
+git status — (Important) See which files are changed and what is ready to be committed.
+
+git add <filename> — Prepare a specific file to be saved.
+
+git add . — Prepare all changed files to be saved.
+ 
+git commit -m "Your message here" — Save your changes with a description.
+
+git push origin <branch-name> — Upload your saved changes to GitHub.
+
+3. Branching (Working on different features)
+git branch — List all local branches.
+
+git checkout -b <branch-name> — Create a new branch and switch to it immediately.
+
+git checkout <branch-name> — Switch back to an existing branch (like master).
+
+git merge <branch-name> — Combine changes from another branch into your current one.
+
+4. Fixing Mistakes
+git rm --cached <filename> — Stop tracking a file (removes it from Git but keeps it on your computer).
+
+git checkout -- <filename> — Undo changes to a file and revert it to the last saved version.
+
+git log --oneline — See a simplified list of your previous saves (commits).
