@@ -29,3 +29,16 @@ git rm --cached <filename> — Stop tracking a file (removes it from Git but kee
 git checkout -- <filename> — Undo changes to a file and revert it to the last saved version.
 
 git log --oneline — See a simplified list of your previous saves (commits).
+
+----------
+The Standard Workflow :--
+
+Create the branch first:
+git checkout -b NewBranchName
+
+Add ONLY the file you want:
+git add leetcode.txt
+
+Commit and Push:
+git commit -m "Add leetcode file"
+git push origin NewBranchName
