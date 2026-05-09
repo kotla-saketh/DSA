@@ -1,7 +1,7 @@
 
 /**
- * https://leetcode.com/problems/two-sum/description/ Find two indices whose
- * values sum to target.
+ * https://leetcode.com/problems/two-sum/description/
+ * Find two indices whose values sum to target.
  */
 import java.util.Arrays;
 import java.util.HashMap;
